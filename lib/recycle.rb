@@ -21,6 +21,8 @@ def address(first_recycle_bin)
   puts first_recycle_bin["address"]
 end
 
+address(first_recycle_bin)
+
 #2. Define a method called `borough` that takes a hash as an argument.
 # This method should return the value of the borough key in the hash.
 
