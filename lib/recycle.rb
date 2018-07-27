@@ -39,6 +39,7 @@ def all_keys(first_recycle_bin)
   first_recycle_bin.each do |key,value|
     puts "#{key}"
 end
+end
 
 all_keys(first_recycle_bin)
 
